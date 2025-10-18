@@ -1,7 +1,7 @@
 from math import ceil
 
 def calc_package_dimensions(length, width, height, qty=1, padding=2):
-    package_length = length * qty + padding * 2
+    package_length = (length * qty) + padding * 2 #Issues fixed
     package_width  = width + padding * 2
     package_height = height + padding * 2
     volume = package_length * package_width * package_height

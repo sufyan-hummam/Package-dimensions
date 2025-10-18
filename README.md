@@ -1,45 +1,21 @@
-# Package Dimension Calculator 📦
-**Author:** Sufyan Hummam (sufyan-hummam)
+# 📦 Package Dimensions Calculator
 
-This repository contains a Python script (`dimensions.py`) that calculates the required package dimensions based on item size, quantity, and padding.
+This small Python program calculates the *required package dimensions and total volume* for shipping items based on the size of each item, quantity, and padding space around them.
 
-## ✅ How to Run
+It’s part of my *Software Testing Tools & Techniques – Assignment 2* to demonstrate debugging, Git, and GitHub workflows.
+
+---
+
+## 🚀 Features
+- Takes item dimensions (Length × Width × Height)
+- Calculates package dimensions based on quantity
+- Adds adjustable padding on all sides
+- Computes total package volume (cm³)
+
+---
+
+## 🧮 Usage
+Run the program in any Python environment (3.8+):
+
 ```bash
 python dimensions.py
-<<<<<<< HEAD
-=======
-```
-
----
-
-## 📌 Example Input:
-```
-Enter item dimensions (L W H): 10 5 3
-Quantity: 2
-Padding: 2
-```
-
-## 📦 Output:
-```
-Package (LxWxH) = (24, 9, 7)
-Volume = 1512 cubic cm
-```
-
----
-
-## 🧰 Git Commands Used:
-```bash
-git init
-git add .
-git commit -m "Initial commit for package dimension calculator"
-git remote add origin https://github.com/sufyan-hummam/Package-dimensions.git
-git push -u origin main
-```
-
-## 🐞 Bug Reporting in GitHub:
-To report bugs:
-1. Go to **Issues → New Issue**
-2. Select **Bug Report**
-3. Add Title + Steps + Expected vs Actual Output
-4. Assign it to the repository owner (sufyan-hummam)
->>>>>>> f1bd8f5e3d80e6a231a355a218d994573510f07a
